@@ -11,8 +11,9 @@
 }
 .hospital-title-name {
     color: #ffffff;
-    font-size: 25px;
+    font-size: 15px;
     font-weight: bold;
+    width: 80%;
 }
 .hospital-nav-titles-card {
     width: 100%;

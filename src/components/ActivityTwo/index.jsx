@@ -7,7 +7,7 @@ const ActivityTwo = () => {
     return (
         <div className="Home-main-container">
             <Navbar />
-            <div className="activities-main-container">
+            <div className="activities-two-main-container">
                 <div className='activities-header-card'>
                     <h1 className='activity-title-name'>Activity 2 (Add Time Points)</h1>
                     <Link to='/'>
@@ -24,8 +24,120 @@ const ActivityTwo = () => {
                     <div className="table-main-container">
                         <h3 className='title-des-styles'>Add TP's</h3>
                         <table className='table-main-container'>
+                            {/* <thead>
+                                <th>TP's</th>
+                                <th>Study100 (GroupName1)</th>
+                                <th>Study100  (GroupName2)</th>
+                            </thead> */}
                             <tbody className='tbody-styles-card'>
-                                <tr>
+                                <tr className='tr-name-card-styles'>
+                                    <td className='td-name-tps-card-styles'>TP's</td>
+                                    <td className='td-name-card-styles'>St:100(Grp1)</td>
+                                    <td className='td-name-card-styles'>St:101(Grp2)</td>
+                                </tr>
+                                <tr className='tr-name-card-styles'>
+                                    <td className='td-name-tps-card-styles'>TP1</td>
+                                    <td className='td-name-card-styles'><input type="text" required className='table-tp-header' /><input type="text" required className='table-tp-header' /></td>
+                                    <td className='td-name-card-styles'><input type="text" required className='table-tp-header' /><input type="text" required className='table-tp-header' /></td>
+                                </tr>
+                                <tr className='tr-name-card-styles'>
+                                    <td className='td-name-tps-card-styles'>TP2</td>
+                                    <td className='td-name-card-styles'><input type="text" required className='table-tp-header' /><input type="text" required className='table-tp-header' /></td>
+                                    <td className='td-name-card-styles'><input type="text" required className='table-tp-header' /><input type="text" required className='table-tp-header' /></td>
+                                </tr>
+                                <tr className='tr-name-card-styles'>
+                                    <td className='td-name-tps-card-styles'>TP3</td>
+                                    <td className='td-name-card-styles'><input type="text" required className='table-tp-header' /><input type="text" required className='table-tp-header' /></td>
+                                    <td className='td-name-card-styles'><input type="text" required className='table-tp-header' /><input type="text" required className='table-tp-header' /></td>
+                                </tr>
+                                <tr className='tr-name-card-styles'>
+                                    <td className='td-name-tps-card-styles'>TP4</td>
+                                    <td className='td-name-card-styles'><input type="text" required className='table-tp-header' /><input type="text" required className='table-tp-header' /></td>
+                                    <td className='td-name-card-styles'><input type="text" required className='table-tp-header' /><input type="text" required className='table-tp-header' /></td>
+                                </tr>
+                                <tr className='tr-name-card-styles'>
+                                    <td className='td-name-tps-card-styles'>TP5</td>
+                                    <td className='td-name-card-styles'><input type="text" required className='table-tp-header' /><input type="text" required className='table-tp-header' /></td>
+                                    <td className='td-name-card-styles'><input type="text" required className='table-tp-header' /><input type="text" required className='table-tp-header' /></td>
+                                </tr>
+                                <tr className='tr-name-card-styles'>
+                                    <td className='td-name-tps-card-styles'>TP6</td>
+                                    <td className='td-name-card-styles'><input type="text" required className='table-tp-header' /><input type="text" required className='table-tp-header' /></td>
+                                    <td className='td-name-card-styles'><input type="text" required className='table-tp-header' /><input type="text" required className='table-tp-header' /></td>
+                                </tr>
+                                <tr className='tr-name-card-styles'>
+                                    <td className='td-name-tps-card-styles'>TP7</td>
+                                    <td className='td-name-card-styles'><input type="text" required className='table-tp-header' /><input type="text" required className='table-tp-header' /></td>
+                                    <td className='td-name-card-styles'><input type="text" required className='table-tp-header' /><input type="text" required className='table-tp-header' /></td>
+                                </tr>
+                                <tr className='tr-name-card-styles'>
+                                    <td className='td-name-tps-card-styles'>TP8</td>
+                                    <td className='td-name-card-styles'><input type="text" required className='table-tp-header' /><input type="text" required className='table-tp-header' /></td>
+                                    <td className='td-name-card-styles'><input type="text" required className='table-tp-header' /><input type="text" required className='table-tp-header' /></td>
+                                </tr>
+                                <tr className='tr-name-card-styles'>
+                                    <td className='td-name-tps-card-styles'>TP9</td>
+                                    <td className='td-name-card-styles'><input type="text" required className='table-tp-header' /><input type="text" required className='table-tp-header' /></td>
+                                    <td className='td-name-card-styles'><input type="text" required className='table-tp-header' /><input type="text" required className='table-tp-header' /></td>
+                                </tr>
+                                <tr className='tr-name-card-styles'>
+                                    <td className='td-name-tps-card-styles'>TP10</td>
+                                    <td className='td-name-card-styles'><input type="text" required className='table-tp-header' /><input type="text" required className='table-tp-header' /></td>
+                                    <td className='td-name-card-styles'><input type="text" required className='table-tp-header' /><input type="text" required className='table-tp-header' /></td>
+                                </tr>
+                                <tr className='tr-name-card-styles'>
+                                    <td className='td-name-tps-card-styles'>TP11</td>
+                                    <td className='td-name-card-styles'><input type="text" required className='table-tp-header' /><input type="text" required className='table-tp-header' /></td>
+                                    <td className='td-name-card-styles'><input type="text" required className='table-tp-header' /><input type="text" required className='table-tp-header' /></td>
+                                </tr>
+                                <tr className='tr-name-card-styles'>
+                                    <td className='td-name-tps-card-styles'>TP12</td>
+                                    <td className='td-name-card-styles'><input type="text" required className='table-tp-header' /><input type="text" required className='table-tp-header' /></td>
+                                    <td className='td-name-card-styles'><input type="text" required className='table-tp-header' /><input type="text" required className='table-tp-header' /></td>
+                                </tr>
+                                <tr className='tr-name-card-styles'>
+                                    <td className='td-name-tps-card-styles'>TP13</td>
+                                    <td className='td-name-card-styles'><input type="text" required className='table-tp-header' /><input type="text" required className='table-tp-header' /></td>
+                                    <td className='td-name-card-styles'><input type="text" required className='table-tp-header' /><input type="text" required className='table-tp-header' /></td>
+                                </tr>
+                                <tr className='tr-name-card-styles'>
+                                    <td className='td-name-tps-card-styles'>TP14</td>
+                                    <td className='td-name-card-styles'><input type="text" required className='table-tp-header' /><input type="text" required className='table-tp-header' /></td>
+                                    <td className='td-name-card-styles'><input type="text" required className='table-tp-header' /><input type="text" required className='table-tp-header' /></td>
+                                </tr>
+                                <tr className='tr-name-card-styles'>
+                                    <td className='td-name-tps-card-styles'>TP15</td>
+                                    <td className='td-name-card-styles'><input type="text" required className='table-tp-header' /><input type="text" required className='table-tp-header' /></td>
+                                    <td className='td-name-card-styles'><input type="text" required className='table-tp-header' /><input type="text" required className='table-tp-header' /></td>
+                                </tr>
+                                <tr className='tr-name-card-styles'>
+                                    <td className='td-name-tps-card-styles'>TP16</td>
+                                    <td className='td-name-card-styles'><input type="text" required className='table-tp-header' /><input type="text" required className='table-tp-header' /></td>
+                                    <td className='td-name-card-styles'><input type="text" required className='table-tp-header' /><input type="text" required className='table-tp-header' /></td>
+                                </tr>
+                                <tr className='tr-name-card-styles'>
+                                    <td className='td-name-tps-card-styles'>TP17</td>
+                                    <td className='td-name-card-styles'><input type="text" required className='table-tp-header' /><input type="text" required className='table-tp-header' /></td>
+                                    <td className='td-name-card-styles'><input type="text" required className='table-tp-header' /><input type="text" required className='table-tp-header' /></td>
+                                </tr>
+                                <tr className='tr-name-card-styles'>
+                                    <td className='td-name-tps-card-styles'>TP18</td>
+                                    <td className='td-name-card-styles'><input type="text" required className='table-tp-header' /><input type="text" required className='table-tp-header' /></td>
+                                    <td className='td-name-card-styles'><input type="text" required className='table-tp-header' /><input type="text" required className='table-tp-header' /></td>
+                                </tr>
+                                <tr className='tr-name-card-styles'>
+                                    <td className='td-name-tps-card-styles'>TP19</td>
+                                    <td className='td-name-card-styles'><input type="text" required className='table-tp-header' /><input type="text" required className='table-tp-header' /></td>
+                                    <td className='td-name-card-styles'><input type="text" required className='table-tp-header' /><input type="text" required className='table-tp-header' /></td>
+                                </tr>
+                                <tr className='tr-name-card-styles'>
+                                    <td className='td-name-tps-card-styles'>TP20</td>
+                                    <td className='td-name-card-styles'><input type="text" required className='table-tp-header' /><input type="text" required className='table-tp-header' /></td>
+                                    <td className='td-name-card-styles'><input type="text" required className='table-tp-header' /><input type="text" required className='table-tp-header' /></td>
+                                </tr>
+                                
+                                
+                                {/* <tr>
                                     <th className='table-header-names'>
                                         Study100 (GroupName1)
                                     </th>
@@ -150,9 +262,11 @@ const ActivityTwo = () => {
                                     </td><td>
                                         <input type="text" required className='table-tp-header' />
                                     </td>
-                                </tr>
+                                </tr> */}
                             </tbody>
                         </table>
+
+
                     </div>
                     <button className="submit-save-button">
                         Save
